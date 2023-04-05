@@ -16,11 +16,11 @@ public class CTAtividade04 {
       idade = ler.nextInt();
 
       if (idade < 16)
-         System.out.printf("\nNao eleitor.\n");
+         System.out.println("\nNao eleitor.\n");
       else if ((idade >= 18) && (idade <= 65))
-              System.out.printf("\nEleitor obrigatorio.\n");
+              System.out.println("\nEleitor obrigatorio.\n");
            else
-              System.out.printf("\nEleitor facultativo.\n");
+              System.out.println("\nEleitor facultativo.\n");
     }
 
 }
