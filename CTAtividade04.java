@@ -12,7 +12,7 @@ public class CTAtividade04 {
 
       int idade;
 
-      System.out.printf("Informe a idade da pessoa: ");
+      System.out.println("Informe a idade da pessoa: ");
       idade = ler.nextInt();
 
       if (idade < 16)
